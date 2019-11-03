@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 
 import TodoCard from './TodoCard';
@@ -28,6 +27,7 @@ class TodoContainer extends Component {
                     direction="row"
                     justify="center"
                     alignItems="center"
+                    style={styles}
                 >
                     {this.handleRenderTodoCards()}
                 </Grid>
